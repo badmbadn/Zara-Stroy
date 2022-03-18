@@ -1,0 +1,40 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+
+@import "settings";
+
+
+@import "./components/info-fields";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about";
+@import "./components/tabs";
+@import "./components/tabs-slider";
+@import "./components/after-slider";
+@import "./components/video-block";
+@import "./components/footer";
+// подключения небольших компонентов страницы
+@import "./components/buttons";
+@import "./components/nav";
+@import "./components/buttons";
+@import "./components/accordeon";
+//@import "./components/list-group";
+@import "./components/catalog-group";
+
+
+
+@import "./components/header-contacts";
+@import "./components/micromodal";
+@import "./components/form-input";
+
+// тестовые стили, удалите их
+/*.page__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--vh);
+}*/
